@@ -34,9 +34,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+I first encountered trouble installing and running the Hello World Demo, but with the help of a TA during the Pre-work Party, I was able to successfully install the updates needed to run the demo. For the Simple Todo app, I had some trouble adjusting the location of the elements for the XML file, but I found that the cause of the issue was the that the magnet icon symbolizing the AutoConnection to Parent was turned off. Besides that, the tutorials were straightforward and I did not enounter any further challenges.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Melinda Li]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
