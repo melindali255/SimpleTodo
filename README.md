@@ -20,7 +20,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+I modified the color of the action bar and the buttons. For the main to-do list, I added additional text to list the total number of items currently in the list. On the edit page, I added text to show the original name of the item. 
 
 ## Video Walkthrough
 
