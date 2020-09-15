@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.apache.commons.io.FileUtils;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etItem;
     RecyclerView rvItems;
     ItemsAdapter itemsAdapter;
+    TextView totalItems;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +44,15 @@ public class MainActivity extends AppCompatActivity {
         btnAdd = findViewById(R.id.btnAdd);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
+        totalItems = findViewById(R.id.totalItemsText);
 
         loadItems();
+
+        //set totalItems to length of items
+        totalItems.setText("Total Number of Items: " + items.size());
+
+        //set Action Bar
+        getSupportActionBar().setTitle("To Do List");
 
         ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener() {
             @Override
@@ -52,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 items.remove(position);
                 // notify the adapter
                 itemsAdapter.notifyItemRemoved(position);
+                totalItems.setText("Total Number of Items: " + items.size());
                 Toast.makeText(getApplicationContext(), "Item was removed", Toast.LENGTH_SHORT).show();
                 saveItems();
             }
@@ -85,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 etItem.setText("");
                 Toast.makeText(getApplicationContext(), "Item was added", Toast.LENGTH_SHORT).show();
                 saveItems();
+                totalItems.setText("Total Number of Items: " + items.size());
             }
         });
     }

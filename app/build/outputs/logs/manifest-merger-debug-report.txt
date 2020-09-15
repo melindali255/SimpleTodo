@@ -7,6 +7,7 @@ INJECTED from C:\Users\melinda\Documents\Personal\CodePath\SimpleTodo\app\src\ma
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\f7fa931c10060cb31b4ececcd856b65d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\850a3c84da944cc872764513edcd7120\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\cb2cdf934d3d3e0441b52d1dc3cb2e6a\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -93,6 +94,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\melinda\
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\melinda\.gradle\caches\transforms-2\files-2.1\850a3c84da944cc872764513edcd7120\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
